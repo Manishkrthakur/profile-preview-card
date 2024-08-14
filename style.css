@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* font-family: "Kumbh Sans", sans-serif; */
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.conatainer{
+    width: 375px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+
+}
+
+
+.upper img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+    /* z-index: -1; */
+   
+    
+}
+.content{
+    text-align: center;
+
+}
+.content img{
+    border-radius: 50%;
+     margin:   auto;
+     border: 2px solid white;
+     margin-top: -4rem;
+}
+span,p{
+    color: hsl(0, 0%, 59%);
+}
+hr{
+    color: hsl(0, 0%, 59%);
+  
+    margin-top: 25px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.content h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
